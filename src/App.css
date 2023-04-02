@@ -1,0 +1,343 @@
+.App {
+  text-align: center;
+}
+
+
+/* background: linear-gradient(to left, #5500ff, #00ff5e, #fbff00); */
+
+@media (max-width:370px) {
+  #firstDiv {
+    width: 50px;
+  }
+
+  #responsDiv {
+    margin-left: 65%;
+  }
+}
+
+#menuDiv {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  border: 2px black no;
+  width: 700px;
+  margin-left: 25%;
+}
+
+#title {
+  position: relative;
+  margin-left: 40%;
+  /* font-size: large; */
+  /* font-weight: 900 */
+  ;
+}
+
+#div1 {
+  width: 60px;
+  height: 52px;
+  background-image: url(components/pictures/cartIcon3.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 20px;
+  border: 2px black solid;
+  background-color: black;
+  border-radius: 25px;
+}
+
+#div2 {
+  width: 57px;
+  height: 52px;
+  background-image: url(components/pictures/homeIcon.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 20px;
+  border: 2px black solid;
+  background-color: black;
+  border-radius: 25px;
+}
+
+
+
+#listItemDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  width: 1300px;
+}
+
+#miniListItemDiv {
+  margin: 45px;
+  width: 210px;
+  height: 320px;
+  border: 2px black solid;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px gray;
+  background-color: antiquewhite;
+  margin-top: 100px;
+
+}
+
+#miniListItemDiv:hover {
+  width: 220px;
+  height: 330px;
+  margin-left: 15px;
+  padding-left: 10px;
+  background-color: burlywood;
+}
+
+#btn {
+  width: 120px;
+  height: 35px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-family: 'fantasy';
+  background-color: 'transparent'
+}
+
+#btn:hover {
+  background-color: moccasin;
+  font-size: medium;
+  color: brown;
+}
+
+#msg {
+  position: absolute;
+  left: 80%;
+  bottom: 89%;
+}
+
+#h5Msg {
+  position: absolute;
+  top: 15px;
+  left: 7%;
+}
+
+
+#imag {
+  background-image: url(components/pictures/iphone\ charger2.png);
+  margin-top: 20px;
+  width: 180px;
+  height: 170px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 8%;
+}
+
+#imag2 {
+  background-image: url(components/pictures/headphones.jpg1.png);
+  margin-top: 20px;
+  width: 180px;
+  height: 170px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 25px;
+}
+
+#imag3 {
+  background-image: url(components/pictures/computer2.png);
+  margin-top: 20px;
+  width: 180px;
+  height: 170px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 15px;
+
+}
+
+#imag4 {
+  background-image: url(components/pictures/Airpods-2.png);
+  margin-top: 20px;
+  width: 180px;
+  height: 170px;
+  margin-left: 35px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#imag5 {
+  background-image: url(components/pictures/iphone.png);
+  margin-top: 20px;
+  width: 180px;
+  height: 170px;
+  margin-left: 25px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#imag6 {
+  background-image: url(components/pictures/tv3.jpg);
+  width: 180px;
+  height: 170px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 15px;
+
+}
+
+#imag7 {
+  background-image: url(components/pictures/samsung2.png);
+  width: 180px;
+  height: 170px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 45px;
+}
+
+#imag8 {
+  background-image: url(components/pictures/dyson.jpg);
+  width: 180px;
+  height: 170px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+#imag9 {
+  background-image: url(components/pictures/kayboard.jpg);
+  width: 180px;
+  height: 170px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+#imag10 {
+  background-image: url(components/pictures/mause.jpg);
+  width: 180px;
+  height: 170px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+#imag11 {
+  background-image: url(components/pictures/xbox.jpg);
+  width: 180px;
+  height: 170px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+#imag12 {
+  background-image: url(components/pictures/soni.jpg);
+  width: 180px;
+  height: 170px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+
+#firstDiv {
+  background: linear-gradient(to left, #efecf6, #def7e7, #f0f0d5);
+
+
+}
+
+#responsDiv {
+  margin-top: -10px;
+  background: linear-gradient(to left, #efecf6, #def7e7, #f0f0d5);
+
+}
+
+#cartPage {
+  margin-top: -18px;
+  background: linear-gradient(to left, #efecf6, #def7e7, #f0f0d5);
+  height: 713px;
+}
+
+.inps {
+  text-align: center;
+  width: 190px;
+  height: 25px;
+  border-radius: 25px;
+  margin: 10px;
+  background-color: transparent;
+  background: linear-gradient(to right, #efecf6, #def7e7, #f0f0d5);
+
+}
+
+#dateInp {
+  text-align: center;
+  width: 195px;
+  height: 27px;
+  border-radius: 25px;
+  background-color: transparent;
+  background: linear-gradient(to right, #efecf6, #def7e7, #f0f0d5);
+
+}
+
+#productsTitle {
+  position: absolute;
+  bottom: 510px;
+  left: 100px;
+  margin-left: 24%;
+
+}
+
+#allProducts {
+  width: 300px;
+  height: 300px;
+  border: 2px black solid;
+  position: absolute;
+  overflow: auto;
+  bottom: 220px;
+  margin-left: 25%;
+  border-radius: 25px;
+  background: linear-gradient(to right, #efecf6, #def7e7, #f0f0d5);
+}
+
+#totalPriceDiv {
+  position: absolute;
+  margin-left: 31%;
+  bottom: 100px;
+
+}
+
+#payAreaDiv {
+  position: absolute;
+  margin-left: 55%;
+  bottom: 320px;
+
+}
+
+#areaPayBtn {
+  width: 80px;
+  height: 25px;
+  border-radius: 25px;
+  background: linear-gradient(to right, #efecf6, #def7e7, #f0f0d5);
+
+}
+
+#thankYouDiv {
+  margin-top: -25px;
+  position: absolute;
+  margin-left: 45%;
+  bottom: 350px;
+}
+
+#thankBtn {
+  width: 150px;
+  height: 35px;
+  border-radius: 25px;
+  background: linear-gradient(to right, #efecf6, #def7e7, #f0f0d5);
+
+}
