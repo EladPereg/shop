@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.2aa0665a.css",
+    "main.css": "/shop/static/css/main.e659df9e.css",
     "main.js": "/shop/static/js/main.6df58faf.js",
     "static/js/787.8830f956.chunk.js": "/shop/static/js/787.8830f956.chunk.js",
     "static/media/samsung2.png": "/shop/static/media/samsung2.b29e2cfd0c5289b402a8.png",
@@ -10,12 +10,12 @@
     "static/media/headphones.jpg1.png": "/shop/static/media/headphones.jpg1.741bc8f54b8913f6b5b8.png",
     "static/media/iphone charger2.png": "/shop/static/media/iphone charger2.6b036332a987cd9e4977.png",
     "index.html": "/shop/index.html",
-    "main.2aa0665a.css.map": "/shop/static/css/main.2aa0665a.css.map",
+    "main.e659df9e.css.map": "/shop/static/css/main.e659df9e.css.map",
     "main.6df58faf.js.map": "/shop/static/js/main.6df58faf.js.map",
     "787.8830f956.chunk.js.map": "/shop/static/js/787.8830f956.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2aa0665a.css",
+    "static/css/main.e659df9e.css",
     "static/js/main.6df58faf.js"
   ]
 }
