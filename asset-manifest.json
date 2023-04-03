@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.4af0a83a.css",
-    "main.js": "/shop/static/js/main.0a5794e4.js",
+    "main.css": "/shop/static/css/main.7a60a01a.css",
+    "main.js": "/shop/static/js/main.6df58faf.js",
     "static/js/787.8830f956.chunk.js": "/shop/static/js/787.8830f956.chunk.js",
     "static/media/samsung2.png": "/shop/static/media/samsung2.b29e2cfd0c5289b402a8.png",
     "static/media/computer2.png": "/shop/static/media/computer2.de3d0c15849dbf627c7c.png",
@@ -10,12 +10,12 @@
     "static/media/headphones.jpg1.png": "/shop/static/media/headphones.jpg1.741bc8f54b8913f6b5b8.png",
     "static/media/iphone charger2.png": "/shop/static/media/iphone charger2.6b036332a987cd9e4977.png",
     "index.html": "/shop/index.html",
-    "main.4af0a83a.css.map": "/shop/static/css/main.4af0a83a.css.map",
-    "main.0a5794e4.js.map": "/shop/static/js/main.0a5794e4.js.map",
+    "main.7a60a01a.css.map": "/shop/static/css/main.7a60a01a.css.map",
+    "main.6df58faf.js.map": "/shop/static/js/main.6df58faf.js.map",
     "787.8830f956.chunk.js.map": "/shop/static/js/787.8830f956.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4af0a83a.css",
-    "static/js/main.0a5794e4.js"
+    "static/css/main.7a60a01a.css",
+    "static/js/main.6df58faf.js"
   ]
 }
