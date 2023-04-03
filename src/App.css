@@ -135,7 +135,7 @@
   height: 170px;
   background-repeat: no-repeat;
   position: relative;
-  margin-left: 8%;
+  margin-left: 14%;
 }
 
 #imag2 {
@@ -145,7 +145,7 @@
   height: 170px;
   background-repeat: no-repeat;
   position: relative;
-  margin-left: 25px;
+  margin-left: 14%;
 }
 
 #imag3 {
@@ -155,7 +155,7 @@
   height: 170px;
   background-repeat: no-repeat;
   position: relative;
-  margin-left: 15px;
+  margin-left: 10%;
 
 }
 
@@ -164,7 +164,7 @@
   margin-top: 20px;
   width: 180px;
   height: 170px;
-  margin-left: 35px;
+  margin-left: 19%;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -174,7 +174,7 @@
   margin-top: 20px;
   width: 180px;
   height: 170px;
-  margin-left: 25px;
+  margin-left: 15%;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -187,7 +187,7 @@
   position: relative;
   margin-top: 20px;
   margin-right: 10px;
-  margin-left: 15px;
+  margin-left: 12%;
 
 }
 
@@ -199,7 +199,7 @@
   position: relative;
   margin-top: 20px;
   margin-right: 10px;
-  margin-left: 45px;
+  margin-left: 55px;
 }
 
 #imag8 {
@@ -210,7 +210,7 @@
   position: relative;
   margin-top: 20px;
   margin-right: 10px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 #imag9 {
@@ -221,7 +221,7 @@
   position: relative;
   margin-top: 20px;
   margin-right: 10px;
-  margin-left: 25px;
+  margin-left: 14%;
 }
 
 #imag10 {
@@ -232,7 +232,7 @@
   position: relative;
   margin-top: 20px;
   margin-right: 10px;
-  margin-left: 40px;
+  margin-left: 22%;
 }
 
 #imag11 {
@@ -243,7 +243,7 @@
   position: relative;
   margin-top: 20px;
   margin-right: 10px;
-  margin-left: 15px;
+  margin-left: 10%;
 }
 
 #imag12 {
@@ -254,7 +254,7 @@
   position: relative;
   margin-top: 20px;
   margin-right: 10px;
-  margin-left: 30px;
+  margin-left: 17%;
 }
 
 
