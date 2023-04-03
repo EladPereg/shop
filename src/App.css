@@ -70,8 +70,8 @@
 
 #miniListItemDiv {
   margin: 45px;
-  width: 210px;
-  height: 320px;
+  width: 230px;
+  height: 390px;
   border: 2px black solid;
   border-radius: 25px;
   box-shadow: 10px 10px 10px gray;
@@ -82,7 +82,7 @@
 
 #miniListItemDiv:hover {
   width: 220px;
-  height: 330px;
+  height: 410px;
   margin-left: 15px;
   padding-left: 10px;
   background-color: burlywood;
@@ -94,7 +94,19 @@
   border-radius: 25px;
   font-size: 15px;
   font-family: 'fantasy';
-  background-color: 'transparent'
+  background-color: 'transparent';
+}
+
+#addMsg {
+  font-weight: 800;
+  margin-top: -1px;
+  font-size: 17px;
+}
+
+
+#quantityMsg {
+  font-weight: 700;
+  margin-top: -10px;
 }
 
 #btn:hover {

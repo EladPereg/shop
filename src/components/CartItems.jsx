@@ -13,6 +13,7 @@ export default function CartItems(props) {
     const [productsFlag, setProductsFlag] = useState(true)
     const [totalFlag, setTotalFlag] = useState(true)
 
+    let arr = []
     const showAllProducts = () => {
         if (productsFlag === true) {
             return <div>
@@ -21,20 +22,22 @@ export default function CartItems(props) {
                     {props.cartArr.map((val) => {
                         return <div>
                             <ul>
-                                <li style={{ fontFamily: 'sans-serif',fontSize:'20px' }}>{val.name} | {val.price}$</li>
+                                <li style={{ fontFamily: 'sans-serif', fontSize: '20px' }}>{val.name} | {val.price}$</li>
                             </ul>
                         </div>
                     })}
                 </div>
             </div>
         }
+        console.log(arr)
     }
+
     const showTotalPrice = () => {
         if (totalFlag === true) {
             return <div>
                 <div id='totalPriceDiv'>
                     <h3> your total price :</h3>
-                  <p style={{fontSize:'30px',marginTop:'-15px',fontWeight:"bold"}}>{props.sum}$</p>   <br />
+                    <p style={{ fontSize: '30px', marginTop: '-15px', fontWeight: "bold" }}>{props.sum}$</p>   <br />
                 </div>
             </div>
         }
@@ -42,6 +45,7 @@ export default function CartItems(props) {
     const showPayArea = () => {
         if (payFlag === true) {
             return <div id='payAreaDiv'>
+                <h4>here you can pay</h4>
                 <input className='inps' onChange={(e) => { setNumber(e.target.value) }} type='number' placeholder='card number' /> <br />
                 <input id='dateInp' onChange={(e) => { setDate(e.target.value) }} type='month' placeholder='date' /> <br />
                 <input className='inps' onChange={(e) => { setDigits(e.target.value) }} type='number' placeholder='trhee digits' /> <br />
@@ -70,6 +74,12 @@ export default function CartItems(props) {
                 setProductsFlag(false)
                 setTotalFlag(false)
                 props.buy()
+                for (let i = 0; i < props.listArr.length; i++) {
+                    if (props.listArr[i].addToCart != false) {
+                        props.listArr[i].addToCart = false
+                        props.listArr[i].quantity = 0
+                    }
+                }
             }
         }
     }

@@ -17,9 +17,11 @@ export default function ListItems(props) {
                     return <div id='miniListItemDiv'>
                         <h4>{val.name}</h4>
                         price:{val.price}$
-                        {val.image}
+                        {val.image} 
                         <button id='btn'
-                            onClick={() => { props.addToCarArr(index); props.addToTatal(val.price); props.calaTotalArr(); props.setMsgFlag(true) }}>Add to my cart</button>
+                            onClick={() => { props.checkIfAdd(index);props.addToCarArr(index); props.addToTatal(val.price); props.calaTotalArr(); props.setMsgFlag(true) }}>Add to my cart</button>
+                       <p id='addMsg'>{val.addToCart?'add to cart !':''}</p> 
+                       <p id='quantityMsg'>{val.addToCart?`quantity: ${val.quantity}`:''} </p>
                     </div>
                 })}
             </div>
