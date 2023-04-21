@@ -18,20 +18,7 @@ function App() {
   let image10 = <div id='imag10'></div>
   let image11 = <div id='imag11'></div>
   let image12 = <div id='imag12'></div>
-  // let listArr = [
-  //   { name: 'Original Charger', price: 80, image: image1 },
-  //   { name: 'Headphones', price: 30, image: image2 },
-  //   { name: 'Computer', price: 800, image: image3 },
-  //   { name: 'Air-pods', price: 50, image: image4 },
-  //   { name: 'iphone', price: 700, image: image5 },
-  //   { name: 'TV', price: 200, image: image6 },
-  //   { name: 'Samsung galaxy', price: 600, image: image7 },
-  //   { name: 'Dyson', price: 550, image: image8 },
-  //   { name: 'Keyboard', price: 100, image: image9 },
-  //   { name: 'Mause', price: 50, image: image10 },
-  //   { name: 'X box', price: 400, image: image11 },
-  //   { name: 'Playstation 5', price: 500, image: image12 },
-  // ]
+
 
   const [listArr, setListArr] = useState([
     { name: 'Original Charger', price: 80, image: image1, addToCart: false, quantity: 0},
@@ -47,8 +34,6 @@ function App() {
     { name: 'X box', price: 400, image: image11, addToCart: false, quantity: 0 },
     { name: 'Playstation 5', price: 500, image: image12, addToCart: false, quantity: 0 },
   ])
-  console.log(listArr)
-  // const [noRepetArr,setNoRepetArr]=useState([])
 
   const checkIfAdd = (i) => {
     listArr[i].addToCart = true
@@ -69,7 +54,6 @@ function App() {
     totalPrice.push(some)
     setTotalPrice([...totalPrice])
   }
-  console.log(totalPrice)
 
   const [sum, SetSum] = useState(0)
   const calaTotalArr = () => {

@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
+
+
 export default function CartItems(props) {
     const nav = useNavigate()
     const [flag, setFlag] = useState(false)
@@ -13,24 +15,45 @@ export default function CartItems(props) {
     const [productsFlag, setProductsFlag] = useState(true)
     const [totalFlag, setTotalFlag] = useState(true)
 
+
     let arr = []
     const showAllProducts = () => {
         if (productsFlag === true) {
+            props.cartArr.forEach((val) => {
+                if (!(arr.includes(val.name))) {
+                    arr.push(val.name)
+                }
+            })
             return <div>
                 <h3 id='productsTitle'> your products</h3>
                 <div id='allProducts'>
-                    {props.cartArr.map((val) => {
+                    {arr.map((val) => {
                         return <div>
-                            <ul>
-                                <li style={{ fontFamily: 'sans-serif', fontSize: '20px' }}>{val.name} | {val.price}$</li>
-                            </ul>
+                            <h4>product name: {val} | quantity: {showQuantity(val)} | {calcProductPrice(val)}$</h4>
+                            <hr/>
                         </div>
                     })}
                 </div>
             </div>
         }
-        console.log(arr)
     }
+
+    const showQuantity = (val) => {
+        for (let i = 0; i < props.cartArr.length; i++) {
+            if (props.cartArr[i].name == val) {
+                return props.cartArr[i].quantity
+            }
+        }
+    }
+
+    const calcProductPrice=(val)=>{
+        for (let i = 0; i < props.cartArr.length; i++) {
+            if (props.cartArr[i].name == val) {
+                return props.cartArr[i].price * props.cartArr[i].quantity
+            }
+        }
+    }
+
 
     const showTotalPrice = () => {
         if (totalFlag === true) {
@@ -92,6 +115,7 @@ export default function CartItems(props) {
         }
     }
 
+
     return (
         <div id='cartPage'>
             <div >{props.homeMsg()}</div>
@@ -99,6 +123,8 @@ export default function CartItems(props) {
             {showTotalPrice()}
             {showPayArea()}
             {checkFlag()}
+       
+          
         </div>
     )
 }
